@@ -1,0 +1,91 @@
+#sectioncontainer {
+    margin-top: 20px;
+  }
+  
+  /* Keep from sticking to sides */
+  .cards-container {
+    max-width: 95%;
+  }
+  
+  .board-item {
+    margin: 5px 0;
+    will-change: transform;
+  }
+  
+  .board-item-content {
+    word-break: break-all;
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+    margin: 5px;
+  }
+  
+  .delete {
+    pointer-events: auto;
+  }
+  
+  footer {
+    margin-top: 2rem;
+  }
+
+  button {
+    margin-left: 0.5%;
+  }
+
+#grupoBotones{
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.cardPerrito{
+  height: 30%;
+  width: 30%;
+  text-align: center;
+  padding: 4%;
+  overflow: hidden;
+}
+
+.colorSitio {
+  background-color: aquamarine;
+}
+
+.banner {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  border-radius: 50px;
+  margin: 12% 5% 12% 5%;
+  height: fit-content;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media only screen and (max-width: 720px)  {
+  .cardPerrito{
+    height: 50%;
+    width: 50%;
+  }
+}
